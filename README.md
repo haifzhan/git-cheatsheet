@@ -3,12 +3,14 @@ git note for self
 
 
 ### Rebase
+```
 git pull --rebase
-
+```
 
 ### Combine n commits
+```
 git rebase -i HEAD~n
-
+```
 Change all `pick` to `fixup` except the most recent commit
 From 
 
@@ -30,7 +32,9 @@ fixup commit 1
 The n commits will be combined into 1 commit and the commit message will be `commit n`
 
 ### Change commit message
+```
 git commit --amend
+```
 
 
 
