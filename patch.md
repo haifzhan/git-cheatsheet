@@ -17,4 +17,3 @@ For **staged** changes:
 ```git
 git diff --cached > patch_name.txt
 ```
-
