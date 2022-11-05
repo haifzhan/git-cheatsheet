@@ -1,6 +1,12 @@
 # diff
 
-Show the changes in staged status
+## Show the local changes
+
+```git
+git log --name-only
+```
+
+## Show the changes in staged status
 
 ```git
 git diff --staged
